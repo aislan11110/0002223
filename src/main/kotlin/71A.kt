@@ -9,7 +9,7 @@ fun receberStr(s:String):String{
 
 }
 
-
+    
 
 fun main (){
     var x = readln().toInt()
