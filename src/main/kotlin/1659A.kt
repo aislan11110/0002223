@@ -3,15 +3,13 @@ private fun readStrings() = readln().split(" ") // list of strings
 private fun readInts() = readStrings().map { it.toInt() } // list of ints
 
 
-// não funciona
-
 fun solucao(n:Int,r:Int,b:Int):String{
     var astring =""
 
         var divresultado=r/(b+1)
         var zeta = r % (b + 1)
 
-        for(i in 0 until divresultado){
+            for(i in 0 until divresultado){
             astring+="R"
         }
         for (i in 0 until b){
@@ -20,7 +18,7 @@ fun solucao(n:Int,r:Int,b:Int):String{
                 zeta--
             }
             astring+="B"
-            for(i in 0 until divresultado){
+            for(j in 0 until divresultado){
                 astring+="R"
             }
         }
