@@ -2,6 +2,8 @@ private fun readInt() = readln().toInt()
 private fun readStrings() = readln().split(" ") // list of strings
 private fun readInts() = readStrings().map { it.toInt() } // list of ints
 
+//sem funcionar
+
 fun solução (x:Int, y:Int):Int {
     if (x == 1 && y == 1) {
         return 0
